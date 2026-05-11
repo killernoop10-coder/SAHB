@@ -1,0 +1,9 @@
+flask
+flask-cors
+openai
+sentence-transformers
+faiss-cpu
+numpy
+pypdf
+gunicorn
+PyPDF2
