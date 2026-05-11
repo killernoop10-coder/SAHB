@@ -1,0 +1,14 @@
+[
+  {
+    "question": "default ip",
+    "answer": "The default IP is 192.168.1.64"
+  },
+  {
+    "question": "reset camera",
+    "answer": "Hold the reset button for 15 seconds."
+  },
+  {
+    "question": "admin password",
+    "answer": "Default username: admin"
+  }
+]

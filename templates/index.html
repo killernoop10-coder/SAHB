@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SAHB</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            SAHB
+        </div>
+
+        <button class="new-chat-btn" id="newChatBtn">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>New Chat</span>
+        </button>
+
+        <div class="chat-history">
+            <div class="history-item active">
+                <i class="fa-solid fa-comments"></i>
+                <span>SAHB Assistant</span>
+            </div>
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- CHAT -->
+        <div class="chat-box" id="chatBox">
+
+            <!-- BOT MESSAGE -->
+            <div class="message bot-message">
+                <div class="bot-header">
+                    <div class="bot-avatar">S</div>
+                    <div class="bot-name">SAHB</div>
+                </div>
+
+                <div class="message-content">
+                    Hello 👋 <br><br>
+                    I'm SAHB, your AI manual assistant.
+                </div>
+            </div>
+
+        </div>
+
+        <!-- INPUT -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask anything..."
+                autocomplete="off"
+            >
+
+            <button id="sendBtn">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
